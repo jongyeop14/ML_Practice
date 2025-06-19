@@ -31,6 +31,6 @@ xfit = np.linspace(-1, 11)
 Xfit = xfit[:, np.newaxis] 
 yfit = model.predict(Xfit)
 
-# plt.scatter(xfit, yfit)
-# plt.scatter(x, y)
-# plt.show()
+plt.scatter(xfit, yfit)
+plt.scatter(x, y)
+plt.show()
